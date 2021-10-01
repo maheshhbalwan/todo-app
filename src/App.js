@@ -1,27 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import { Header } from './MyComponents/Header';
+import { Todos } from './MyComponents/Todos';
+import { TodoItem } from './MyComponents/TodoItem';
+import { Footer } from './MyComponents/Footer';
+
 
 function App() {
 let  myVariable = "The app works"
   return (
-    <div className="App">
-      <header className="App-header">
-        <div>{myVariable}</div>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank" 
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+<Header/>
+<Todos/>
+<TodoItem/>
+<Footer/>
+
+    </>
+    );
 }
 
 export default App;
