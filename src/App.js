@@ -2,9 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+let  myVariable = "The app works"
   return (
     <div className="App">
       <header className="App-header">
+        <div>{myVariable}</div>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -12,7 +14,7 @@ function App() {
         <a
           className="App-link"
           href="https://reactjs.org"
-          target="_blank"
+          target="_blank" 
           rel="noopener noreferrer"
         >
           Learn React
