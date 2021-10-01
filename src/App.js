@@ -10,7 +10,7 @@ function App() {
 let  myVariable = "The app works"
   return (
     <>
-<Header/>
+<Header title="MyTodosList" searchBar = {true}/>
 <Todos/>
 <TodoItem/>
 <Footer/>
