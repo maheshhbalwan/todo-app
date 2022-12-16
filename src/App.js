@@ -7,7 +7,7 @@ import { Footer } from './MyComponents/Footer';
 
 
 function App() {
-let  myVariable = "The app works"
+// let  myVariable = "The app works"
   return (
     <>
 <Header title="MyTodosList" searchBar = {true}/>
